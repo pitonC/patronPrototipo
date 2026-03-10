@@ -10,7 +10,7 @@ public abstract class Examen : ICloneable
     protected string nombreAsignatura;
    
      protected string docente;
-    protected string salon;
+     protected string salon;
     protected string grupo;
 
     public Examen(string claveMateria, string nombreAsignatura, string docente, string salon)
